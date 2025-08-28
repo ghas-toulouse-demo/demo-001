@@ -9,4 +9,10 @@ public class HelloWorldTest {
         HelloWorld hw = new HelloWorld();
         assertEquals("Hello, World!", hw.hello());
     }
+    
+    @Test
+    public void testGoodbye() {
+        HelloWorld hw = new HelloWorld();
+        assertEquals("Goodbye, World!", hw.goodbye());
+    }
 }
