@@ -10,6 +10,13 @@ This is a Maven-based Java library project (`hello-lib`) using Java 21 and JUnit
 - `src/test/java/com/example/hello/HelloWorldTest.java`: JUnit 5 test for `HelloWorld`.
 - `README.md`: Usage, build, and test instructions.
 
+## Pre-requisites
+- Java 21 JDK
+- Apache Maven 3.8.1 or higher
+- CRITICAL: 
+  - **CRITICAL**: Ensure JAVA_HOME is set to Java 21
+  - Install Java 21 if not available
+
 ## Build & Test Workflow
 - **Build:**
   - Run `mvn compile` in the `hello-lib` directory.
