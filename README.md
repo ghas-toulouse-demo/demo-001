@@ -6,7 +6,8 @@ This is a simple Java library project using Maven and Java 21. It provides a `He
 
 ```
 HelloWorld hw = new HelloWorld();
-System.out.println(hw.hello()); // "Hello, World!"
+System.out.println(hw.hello());   // "Hello, World!"
+System.out.println(hw.goodbye()); // "Goodbye, World!"
 ```
 
 ## Build
