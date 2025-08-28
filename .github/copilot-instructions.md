@@ -42,6 +42,14 @@ System.out.println(hw.hello()); // "Hello, World!"
 ```
 
 ## Quickstart for AI Agents
+- Before building or testing, always verify that Java 21 is installed and set as the active Java version:
+  - Check the output of `java -version` and ensure it reports Java 21.
+  - If Java 21 is not present:
+    - **On Ubuntu/Debian:** Install with `sudo apt-get update && sudo apt-get install openjdk-21-jdk`
+    - **On macOS (Homebrew):** Install with `brew install openjdk@21`
+    - **On Windows (winget):** Install with `winget install --id Microsoft.OpenJDK.21`
+  - After installation, set `JAVA_HOME` to the Java 21 installation path and ensure your shell uses it.
+  - Re-run `java -version` to confirm Java 21 is active.
 - To add new features, create classes in `src/main/java/com/example/hello/` and corresponding tests in `src/test/java/com/example/hello/`.
 - Update `pom.xml` for new dependencies if needed.
 - Always verify with `mvn test`.
