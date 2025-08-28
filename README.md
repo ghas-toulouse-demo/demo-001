@@ -20,3 +20,5 @@ mvn compile
 ```
 mvn test
 ```
+
+Test of a commit from Web interfance
