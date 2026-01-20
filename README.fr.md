@@ -1,6 +1,6 @@
 # Bibliothèque Java hello-lib
 
-Ceci est un projet de bibliothèque Java simple utilisant Maven et Java 21. Il fournit une classe `HelloWorld` à des fins de démonstration et de test.
+Ceci est un projet de bibliothèque Java simple utilisant Maven et Java 21. Il fournit une classe `HelloWorld` pour la démonstration et les tests.
 
 ## Utilisation
 
